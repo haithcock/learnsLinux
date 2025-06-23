@@ -19,3 +19,7 @@ on 6/23/2025 I have officialler learned the following commands:
 
      env: returns declared variables you have access
      to within your session.
+
+     expr: known as the "evaluate expressions" command that allows
+     us to preform basic math functions.
+
