@@ -10,3 +10,12 @@ What is bash?
     My return was the following:
         /usr/bin/bash
     This confirms I am using bash.
+
+    If I was not using bash I would type the following:
+        which bash
+    Which in my case returned:
+        /usr/bin/bash
+              *NOTE this is the default location of where bash is located on my device.
+               Most people should have gotten the same return but if not that
+               is okay. You most likely moved it somewhere else.
+    
