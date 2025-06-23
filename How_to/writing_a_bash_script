@@ -86,6 +86,15 @@ This is a short and simple guide outlining how to make a script in bash on unix/
                 ./jesusChrist.sh
         
             then press enter.
+
+                *NOTE
+                    If you find yourself in another location in the
+                    terminal like /home/desktop/trash where the script 
+                    OR ANYWHERE where the file wasn't saved to, you 
+                    will not be able to run the script.
+
+                    "./" Only lets us run the program if its in the 
+                    same working directory.
         
         7.2
             Because in step 4, I wrote:
