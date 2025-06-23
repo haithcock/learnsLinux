@@ -1,0 +1,103 @@
+This is a short and simple guide outlining how to make a script in bash on unix/linux
+
+
+    1. Using a terminal you will type: 
+    
+        nano (whaterver you want to name it).sh
+    
+        It should look something like the following:
+
+            nano myScript.sh
+            nano yourScript.sh
+            nano jesusChrist.sh
+            nano unitedStates.sh
+
+        If you are following along I will name it jesusChrist.sh
+    
+    2. This opens up nano within your terminal and creates the file. 
+    From here you can begin writing your script. 
+
+    3. If you intend on using bash and want to make extra sure you are 
+    going to have your system use the bash shell to interpret your script
+    you should start the file with "shebang".
+
+        a shebang looks like this:
+            #!/bin/bash
+
+    4. Write your commands. If you are simply following along with this 
+    short and simple guide lets just use one of the following eamples
+     for now:
+       
+       Example 1. 
+        #!/bin/bash
+        echo "Alpha and the omega."
+       
+       Example 2.
+       #!/bin/bash
+       echo "Hallowed be thy name."
+       
+       Example 3.
+       #!/bin/bash
+       echo "The beginning and the end."
+
+    5. Save the file.
+        5.1 
+            Save the file by pressing Ctrl+O 
+            (As in the Control Key that 
+             is in the bottom left hand
+             of the keyboard and 
+             abbreviated as "Ctrl" 
+             and the letter O)
+        
+            After pressing Ctrl+O it will likely say
+            "Write to File: (THE NAME OF YOUR SCRIPT).sh"
+            near the bottom left hand corner of the screen.
+            In my case since I named it "jesusChrist.sh"
+            this is what it will look like:
+                "Write to File: jesusChrist.sh"
+    
+        5.2
+            Just press enter. (This confirms you want to save your work.)
+             It should say "[ Wrote 3 lines ]"
+        5.3 Now press Ctrl+X (This exits you out of nano and back to the terminal.)
+
+    6. Making the script executable
+    
+        To make the script executabable we
+        will be using the following "chmod +x" command.
+        This adds execute (+x) permission to the file 
+        which allows us to run the file as a regular
+        degular command. By itself chmod doesnt do
+        anything on its own. It stands for
+        "change mode" though.
+
+        6.1 
+            Run chmod +x jesusChrist.sh
+            Thats it nothing else. We turned
+            our script file into an executable
+            program.
+
+    7. Run the script
+
+        7.1 
+            Run the script by typing "./" in the terminal
+            followed by the name of the program like so:
+
+                ./jesusChrist.sh
+        
+            then press enter.
+        
+        7.2
+            Because in step 4, I wrote:
+                
+                #!/bin/bash
+                echo "Hallowed be thy name."
+            
+            my return in the console was:
+
+             Hallowed be thy name.
+
+
+    9. Congratulations! You wrote your a bash script!
+    Well done. I hope you continue to learn how to use linux
+    and bash scripting more and more. It is well worth it.
