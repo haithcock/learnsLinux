@@ -12,3 +12,10 @@ on 6/23/2025 I have officialler learned the following commands:
              print("Hello, world!").
           Well in Bash you would type:
             echo "Hello, world!"
+
+    date: returns the system time and date.
+
+    $USER: a variable where the current username is stored.
+
+     env: returns declared variables you have access
+     to within your session.
